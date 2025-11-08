@@ -1,12 +1,13 @@
 sig =  ["+","-","×","÷","%","∆","!","√"]
 def under_root(no_1):
-    (no_1 ** 0.5)
+    R = no_1 ** 0.5
+    print("         :",R)
 print("----------------------calculator-----------------------",end = "                                                       ")
 def factorial(no1):
     g = 1
     for i in range(1, no1 + 1):
         g *= i
-    print(g)
+    print("         :",g)
     if g == 1 or 0:
         return 1
 while True:
